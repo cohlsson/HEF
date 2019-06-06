@@ -46,22 +46,24 @@
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
       <a class="p-2 text-muted" href="index.php">Home</a>
-      <a class="p-2 text-muted" href="mission.php">Mission Statement</a>
-      <a class="p-2 text-muted" href="board.php">Board Members</a>
-      <a class="p-2 text-muted" href="donation.php">Make a Donation</a>
-      <a class="p-2 text-muted" href="links.php">Links</a>
-      <a class="p-2 text-muted" href="contact.php">Contact Us</a>
+      <a class="p-2 text-muted" href="about.php">About</a>
+      <a class="p-2 text-muted" href="board.php">Board</a>
+      <a class="p-2 text-muted" href="donation.php">Donate</a>
+      <!--<a class="p-2 text-muted" href="links.php">Links</a>-->
+      <a class="p-2 text-muted" href="contact.php">Contact</a>
     </nav>
   </div>
 
   <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-6 px-0">
+      <!--
       <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
       <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
       <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+      -->
     </div>
   </div>
-
+  <!--
   <div class="row mb-2">
     <div class="col-md-6">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -92,20 +94,21 @@
       </div>
     </div>
   </div>
+  -->
 </div>
 
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
+      <!--
       <h3 class="pb-4 mb-4 font-italic border-bottom">
-        From the Firehose
+        News
       </h3>
+    -->
 
       <div class="blog-post">
-        <h2 class="blog-post-title">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+        <h2 class="blog-post-title">Our community mourns the passing of Dr. Selden Smith</h2>
+        <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
         <hr>
         <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
         <blockquote>
@@ -169,36 +172,22 @@
 
     <aside class="col-md-4 blog-sidebar">
       <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        <h4 class="font-italic">Mission Statement</h4>
+        <p class="mb-0">
+The Selden K. Smith Foundation for Holocaust Education was formed in May 2010 to further the programs of the South Carolina Council on the Holocaust. The Foundation functions as a private source of funding for support of Holocaust educational activities and community awareness events in South Carolina and has a 501 (c) (3) status.</p>
       </div>
 
       <div class="p-4">
-        <h4 class="font-italic">Archives</h4>
+        <h4 class="font-italic">Links</h4>
         <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
+          <li><a href="#">Columbia Holocaust Education Commission</a></li>
+          <li><a href="#">South Carolina Council on the Holocaust</a></li>
+          <li><a href="#">The United States Holocaust Memorial Museum</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Survivor/Libertor Tapes</a></li>
         </ol>
       </div>
 
-      <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
     </aside><!-- /.blog-sidebar -->
 
   </div><!-- /.row -->
