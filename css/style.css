@@ -130,3 +130,12 @@ h1, h2, h3, h4, h5, h6 {
 .about-content{
   padding-top: 4em;
 }
+
+/*
+ * Jumbotron
+ */
+.jumbotron{
+  background: url("../images/banner.jpg");
+  background-size: cover;
+  height: 300px;
+}
