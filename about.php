@@ -55,53 +55,44 @@
       </div>
     </div>
 
-<main role="main" class="container">
+<main role="main" class="container about-content">
   <div class="row">
-    <div class="col-md-8 blog-main">
+    <div class="col-md-12 blog-main">
       <!--
       <h3 class="pb-4 mb-4 font-italic border-bottom">
         News
       </h3>
     -->
+
       <div class="blog-post">
-        <h2 class="blog-post-title">Thank you!</h2>
+        <p>The South Carolina Council on the Holocaust was established  in 1989 by the General Assembly of our state to honor the Holocaust survivors who  moved to South Carolina and the South Carolina soldiers  who liberated the concentration camps in 1945.  The Council was given a mandate to create and encourage educational  programs on the Holocaust. Current  economic conditions and cutbacks in state appropriations have resulted in the  need for private funding to ensure the future of various educational projects  in our state.</p>
+        <p>The purpose of the Foundation is to strengthen the Council's activities in memory, history and education. The Foundation will also assist the South Carolina Council on the Holocaust as it addresses related  issues of international conflict, genocide, prejudice and intolerance.  The Council provides funding to schools, colleges, churches, synagogues, civic groups and individuals.  Projects include teacher grants, classroom supplies, student field trips, teacher training and workshops, Holocaust speakers, exhibits and other related educational programs.</p>
+      </div>
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Mission</h2>
         <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
         <hr>
-        <img src="http://holocausteducationfoundation.org/images/thankyou.jpg" alt="Midlands Gives">
-        <p>The Selden K. Smith Foundation for Holocaust Education raised $7128 online during Midlands Gives and we still have checks coming in! We couldn't have done it without your support, so thank you all! We look forward to continuing our work around the state this year.</p>
+        <p>The Selden K. Smith Foundation  for Holocaust Education was formed in May 2010 to further the programs of the  South Carolina Council on the Holocaust.  The Foundation functions as a private source of funding for support of  Holocaust educational activities and community awareness events in South Carolina and has a  501 (c) (3) status.</p>
       </div><!-- /.blog-post -->
 
       <div class="blog-post">
-        <h2 class="blog-post-title">Our community mourns the passing of Dr. Selden Smith</h2>
+        <h2 class="blog-post-title">Dr. Selden Smith</h2>
         <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
         <hr>
-        <p>It is with much sadness and a heavy heart that I share the news of the passing of Dr. Selden K. Smith on February 12, 2018 at the age of 88.</p>
-        <p>Dr. Smith devoted much of his life to justice, tolerance and combatting hatred. He was truly the "father" of Holocaust Education in South Carolina. His tireless efforts to teach the lessons of the Holocaust have been an inspiration to many and his mentorship and guidance has influenced others to follow in his footsteps.</p>
-        <p><a href="http://holocausteducationfoundation.org/pdf/inmemoriam.pdf" title="Full Memoriam">READ OUR FULL MEMORIAM</a></p>
-        <p><a href="https://www.thestate.com/opinion/letters-to-the-editor/article200387779.html" title="The State">Read how Selden Smith tansformed Holocaust education in the Midlands</a></p>
+        <p>The Foundation carries the name of Dr. Selden Smith.  Dr. Smith is a retired history professor from  Columbia College who became interested in teaching  the Holocaust over three decades ago.</p>
+        <p>This special interest brought him in  contact with survivors and liberators in South Carolina.  He  acknowledges that these friendships have enriched his life.  He was appointed to the Council and served as  the chair for many years.</p>
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Holocaust</h2>
+        <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
+        <hr>
+        <p>The Holocaust revealed to the world the terrible tragedy of  what hatred and prejudice can do.  Isn't  it possible that we can learn from the study of history that intolerance and  hatred must be fought and attitudes changed in hope that such atrocities will  become events of the past, not present or future?  Holocaust education has a role to play in our  society and in the classroom for democracy, social justice and civic  responsibility. The Foundation is working towards this reality.</p>
+        <p>We appreciate your visiting our website and hope you too realize how important   it is to continue teaching and reminding both children and adults the lessons of   the Holocaust. This is especially important now, since few survivors and   liberators remain alive to give first hand testimony.</p>
       </div><!-- /.blog-post -->
 
     </div><!-- /.blog-main -->
-
-    <aside class="col-md-4 blog-sidebar">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">Mission Statement</h4>
-        <p class="mb-0">
-The Selden K. Smith Foundation for Holocaust Education was formed in May 2010 to further the programs of the South Carolina Council on the Holocaust. The Foundation functions as a private source of funding for support of Holocaust educational activities and community awareness events in South Carolina and has a 501 (c) (3) status.</p>
-      </div>
-
-      <div class="p-4">
-        <h4 class="font-italic">Links</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">Columbia Holocaust Education Commission</a></li>
-          <li><a href="#">South Carolina Council on the Holocaust</a></li>
-          <li><a href="#">The United States Holocaust Memorial Museum</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Survivor/Libertor Tapes</a></li>
-        </ol>
-      </div>
-
-    </aside><!-- /.blog-sidebar -->
 
   </div><!-- /.row -->
 
