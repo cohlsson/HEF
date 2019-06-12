@@ -29,7 +29,9 @@
       }
     </style>
     <!-- Importing fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway:300,400,500i&display=swap" rel="stylesheet">
+    <!-- Custon icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -48,7 +50,7 @@
           <a class="p-2 text-muted" href="index.php">Home</a>
           <a class="p-2 text-muted" href="about.php">About</a>
           <a class="p-2 text-muted" href="board.php">Board</a>
-          <a class="p-2 text-muted" href="donate.php">Donate</a>
+          <a class="p-2 text-muted active" href="donate.php">Donate</a>
           <!--<a class="p-2 text-muted" href="links.php">Links</a>-->
           <a class="p-2 text-muted" href="contact.php">Contact</a>
         </nav>
@@ -64,12 +66,12 @@
       </h3>
 
       <div class="hef-post">
-        <p>We appreciate your visiting our website and hope you too realize how important it is to continue teaching and reminding both children and adults the lessons of the Holocaust.</p>
-        <p>Please consider making a tax deductible gift to The Selden K. Smith Foundation for Holocaust Education.</p>
-        <p>Tax ID# 27-2776720</p>
-        <p>Please download, complete, print and mail the donation form found <a href="http://holocausteducationfoundation.org/pdf/donationpledgeform.pdf" title="Donation Form">HERE</a>.</p>
-        <p>OR</p>
-        <p>Donate with PayPal<br>
+        <p class="hef-post-content">We appreciate your visiting our website and hope you too realize how important it is to continue teaching and reminding both children and adults the lessons of the Holocaust.</p>
+        <p class="hef-post-content">Please consider making a tax deductible gift to The Selden K. Smith Foundation for Holocaust Education.</p>
+        <p class="hef-post-content">Tax ID# 27-2776720</p>
+        <p class="hef-post-content">Please download, complete, print and mail the donation form found <a href="http://holocausteducationfoundation.org/pdf/donationpledgeform.pdf" title="Donation Form">HERE</a>.</p>
+        <p class="hef-post-content">OR</p>
+        <p class="hef-post-content">Donate with PayPal<br>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="FRQ84TY6D29EQ">
@@ -87,6 +89,7 @@
 
 <footer class="hef-footer">
   <p>The Selden K. Smith Foundation for Holocaust Education</p>
+  <p><a href="https://www.facebook.com/seldensmitheducationfoundation/"><i style="font-size:24px" class="fa">&#xf082;</i></a></p>
 </footer>
 </body>
 </html>

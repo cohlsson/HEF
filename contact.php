@@ -29,7 +29,9 @@
       }
     </style>
     <!-- Importing fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway:300,400,500i&display=swap" rel="stylesheet">
+    <!-- Custon icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -50,7 +52,7 @@
           <a class="p-2 text-muted" href="board.php">Board</a>
           <a class="p-2 text-muted" href="donate.php">Donate</a>
           <!--<a class="p-2 text-muted" href="links.php">Links</a>-->
-          <a class="p-2 text-muted" href="contact.php">Contact</a>
+          <a class="p-2 text-muted active" href="contact.php">Contact</a>
         </nav>
       </div>
     </div>
@@ -139,15 +141,15 @@
 
     <aside class="col-md-4 hef-sidebar">
       <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">Mailing Address:</h4>
-        <p class="mb-0">
+        <h4 class="hef-mission-title">Mailing Address:</h4>
+        <p class="mb-0 hef-mission-content">
           The Selden K. Smith Foundation for Holocaust Education<br>
           P.O. Box 25740<br>
           Columbia, SC 29224
         </p>
         <hr>
-        <h4 class="font-italic">Phone:</h4>
-        <p class="mb-0">
+        <h4 class="hef-mission-title">Phone:</h4>
+        <p class="mb-0 hef-mission-content">
           (803) 788-1280
         </p>
       </div>
@@ -159,6 +161,7 @@
 
 <footer class="hef-footer">
   <p>The Selden K. Smith Foundation for Holocaust Education</p>
+  <p><a href="https://www.facebook.com/seldensmitheducationfoundation/"><i style="font-size:24px" class="fa">&#xf082;</i></a></p>
 </footer>
 </body>
 </html>

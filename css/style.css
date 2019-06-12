@@ -15,7 +15,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 .display-4 {
@@ -105,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
+.hef-post-content{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
 .hef-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
@@ -138,4 +143,46 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../images/banner.jpg");
   background-size: cover;
   height: 300px;
+}
+
+/*
+ * Navigation
+ */
+.active{
+  /*text-decoration: underline;*/
+  opacity: 0.5;
+}
+
+/*
+ * HEF mission statement
+ */
+.hef-mission-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.hef-mission-content{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+/*
+ * Board
+ */
+.board-members{
+  text-align: center;
+}
+
+/*
+ * events
+ */
+.hef-events-title{
+  text-decoration: underline;
+}
+.event-title{
+  font-weight: bold;
+}
+.event-desc{
+  padding-left: 10px;
+  padding-bottom: 10px;
 }

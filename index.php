@@ -29,7 +29,9 @@
       }
     </style>
     <!-- Importing fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway:300,400,500i&display=swap" rel="stylesheet">
+    <!-- Custon icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -45,7 +47,7 @@
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="index.php">Home</a>
+      <a class="p-2 text-muted active" href="index.php">Home</a>
       <a class="p-2 text-muted" href="about.php">About</a>
       <a class="p-2 text-muted" href="board.php">Board</a>
       <a class="p-2 text-muted" href="donate.php">Donate</a>
@@ -63,38 +65,6 @@
       -->
     </div>
   </div>
-  <!--
-  <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
 </div>
 
 <main role="main" class="container">
@@ -110,36 +80,48 @@
         <!--<p class="hef-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
         <hr>
         <img src="http://holocausteducationfoundation.org/images/thankyou.jpg" alt="Midlands Gives">
-        <p>The Selden K. Smith Foundation for Holocaust Education raised $7128 online during Midlands Gives and we still have checks coming in! We couldn't have done it without your support, so thank you all! We look forward to continuing our work around the state this year.</p>
+        <p class="hef-post-content">The Selden K. Smith Foundation for Holocaust Education raised $7128 online during Midlands Gives and we still have checks coming in! We couldn't have done it without your support, so thank you all! We look forward to continuing our work around the state this year.</p>
       </div><!-- /.hef-post -->
 
       <div class="hef-post">
         <h2 class="hef-post-title">Our community mourns the passing of Dr. Selden Smith</h2>
         <!--<p class="hef-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
         <hr>
-        <p>It is with much sadness and a heavy heart that I share the news of the passing of Dr. Selden K. Smith on February 12, 2018 at the age of 88.</p>
-        <p>Dr. Smith devoted much of his life to justice, tolerance and combatting hatred. He was truly the "father" of Holocaust Education in South Carolina. His tireless efforts to teach the lessons of the Holocaust have been an inspiration to many and his mentorship and guidance has influenced others to follow in his footsteps.</p>
-        <p><a href="http://holocausteducationfoundation.org/pdf/inmemoriam.pdf" title="Full Memoriam">READ OUR FULL MEMORIAM</a></p>
-        <p><a href="https://www.thestate.com/opinion/letters-to-the-editor/article200387779.html" title="The State">Read how Selden Smith tansformed Holocaust education in the Midlands</a></p>
+        <p class="hef-post-content">It is with much sadness and a heavy heart that I share the news of the passing of Dr. Selden K. Smith on February 12, 2018 at the age of 88.</p>
+        <p class="hef-post-content">Dr. Smith devoted much of his life to justice, tolerance and combatting hatred. He was truly the "father" of Holocaust Education in South Carolina. His tireless efforts to teach the lessons of the Holocaust have been an inspiration to many and his mentorship and guidance has influenced others to follow in his footsteps.</p>
+        <p class="hef-post-content"><a href="http://holocausteducationfoundation.org/pdf/inmemoriam.pdf" title="Full Memoriam">READ OUR FULL MEMORIAM</a></p>
+        <p class="hef-post-content"><a href="https://www.thestate.com/opinion/letters-to-the-editor/article200387779.html" title="The State">Read how Selden Smith tansformed Holocaust education in the Midlands</a></p>
       </div><!-- /.hef-post -->
 
     </div><!-- /.hef-main -->
 
     <aside class="col-md-4 hef-sidebar">
       <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">Mission Statement</h4>
-        <p class="mb-0">
+        <h4 class="hef-mission-title">Mission Statement</h4>
+        <p class="mb-0 hef-mission-content">
 The Selden K. Smith Foundation for Holocaust Education was formed in May 2010 to further the programs of the South Carolina Council on the Holocaust. The Foundation functions as a private source of funding for support of Holocaust educational activities and community awareness events in South Carolina and has a 501 (c) (3) status.</p>
       </div>
 
       <div class="p-4">
-        <h4 class="font-italic">Links</h4>
+        <h4 class="hef-events-title">Events</h4>
         <ol class="list-unstyled mb-0">
-          <li><a href="#">Columbia Holocaust Education Commission</a></li>
-          <li><a href="#">South Carolina Council on the Holocaust</a></li>
-          <li><a href="#">The United States Holocaust Memorial Museum</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Survivor/Libertor Tapes</a></li>
+
+          <li class="event-title">Drawing on History</li>
+          <li class="event-desc">July 7-13, 2019<br>
+          Summer Seminar for Middle, High School, and College Educators<br>
+          <a href="http://columbiaholocausteducation.org/pdf/TOLI_2019.pdf">More Info</a></li>
+
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="hef-links-title">Links</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="http://columbiaholocausteducation.org/" title="Columbia Holocaust Education Commission">Columbia Holocaust Education Commission</a></li>
+          <li><a href="https://scholocaustcouncil.org/" title="South Carolina Council on the Holocaust">South Carolina Council on the Holocaust</a></li>
+          <li><a href="https://www.ushmm.org/" title="The US Holocaust Memorial Museum">The United States Holocaust Memorial Museum</a></li>
+          <li><a href="https://www.facebook.com/seldensmitheducationfoundation/" title="Facebook">Facebook</a></li>
+          <li><a href="https://scholocaustcouncil.org/survivor.php" title="Survivor/Liberator">Survivor/Liberator Tapes</a></li>
         </ol>
       </div>
 
@@ -151,6 +133,7 @@ The Selden K. Smith Foundation for Holocaust Education was formed in May 2010 to
 
 <footer class="hef-footer">
   <p>The Selden K. Smith Foundation for Holocaust Education</p>
+  <p><a href="https://www.facebook.com/seldensmitheducationfoundation/"><i style="font-size:24px" class="fa">&#xf082;</i></a></p>
 </footer>
 </body>
 </html>

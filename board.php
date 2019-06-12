@@ -29,7 +29,9 @@
       }
     </style>
     <!-- Importing fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway:300,400,500i&display=swap" rel="stylesheet">
+    <!-- Custon icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -47,7 +49,7 @@
         <nav class="nav d-flex justify-content-between">
           <a class="p-2 text-muted" href="index.php">Home</a>
           <a class="p-2 text-muted" href="about.php">About</a>
-          <a class="p-2 text-muted" href="board.php">Board</a>
+          <a class="p-2 text-muted active" href="board.php">Board</a>
           <a class="p-2 text-muted" href="donate.php">Donate</a>
           <!--<a class="p-2 text-muted" href="links.php">Links</a>-->
           <a class="p-2 text-muted" href="contact.php">Contact</a>
@@ -63,24 +65,26 @@
         Board
       </h3>
 
-      <div class="hef-post">
-        <p>Minda Miller<br>
-        <a href="mailto:hedfd@hotmail.com">hedfd@hotmail.com</a></p>
-      </div>
+      <div class="board-members">
+        <div class="hef-post">
+          <p>Minda Miller<br>
+          <a href="mailto:hedfd@hotmail.com">hedfd@hotmail.com</a></p>
+        </div>
 
-      <div class="hef-post">
-        <p>Tom G Smith<br>
-        <a href="mailto:smithtg@musc.edu">smithtg@musc.edu</a></p>
-      </div>
+        <div class="hef-post">
+          <p>Tom G Smith<br>
+          <a href="mailto:smithtg@musc.edu">smithtg@musc.edu</a></p>
+        </div>
 
-      <div class="hef-post">
-        <p>Justin Heineman<br>
-        <a href="mailto:justinheineman@gmail.com">justinheineman@gmail.com</a></p>
-      </div>
+        <div class="hef-post">
+          <p>Justin Heineman<br>
+          <a href="mailto:justinheineman@gmail.com">justinheineman@gmail.com</a></p>
+        </div>
 
-      <div class="hef-post">
-        <p>Kenneth Berger<br>
-        <a href="mailto:kberger@bergerlawsc.com">kberger@bergerlawsc.com</a></p>
+        <div class="hef-post">
+          <p>Kenneth Berger<br>
+          <a href="mailto:kberger@bergerlawsc.com">kberger@bergerlawsc.com</a></p>
+        </div>
       </div>
 
     </div><!-- /.hef-main -->
@@ -91,6 +95,7 @@
 
 <footer class="hef-footer">
   <p>The Selden K. Smith Foundation for Holocaust Education</p>
+  <p><a href="https://www.facebook.com/seldensmitheducationfoundation/"><i style="font-size:24px" class="fa">&#xf082;</i></a></p>
 </footer>
 </body>
 </html>
