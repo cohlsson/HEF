@@ -57,7 +57,7 @@
       </div>
     </div>
 
-<main role="main" class="container about-content">
+<main role="main" class="container about-content fade">
   <div class="row">
     <div class="col-md-12 hef-main">
 

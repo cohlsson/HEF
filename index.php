@@ -56,7 +56,7 @@
     </nav>
   </div>
 
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark fade">
     <div class="col-md-6 px-0">
       <!--
       <h1 class="display-4 font-italic">Title of a longer featured hef post</h1>
@@ -67,7 +67,7 @@
   </div>
 </div>
 
-<main role="main" class="container">
+<main role="main" class="container fade">
   <div class="row">
     <div class="col-md-8 hef-main">
       <!--
